@@ -1,0 +1,211 @@
+#container {
+    width: 1100px;
+    border: 1px solid rgb(187, 187, 187);
+    height: 100%;
+    margin: 0 auto;
+    border-color: white;
+}
+
+h1 a{
+    font-size: 50px;
+    font-weight: 100;
+    color: rgb(255, 6, 172);
+    text-decoration: none;
+}
+
+#header {
+    height: 100px;
+    padding: 10px 0;
+}
+
+#brand {
+    float: left;
+}
+
+#searchbox {
+    float: right;
+    background: linear-gradient(rgb(182, 231, 90), rgb(16, 226, 16));
+    background: -webkit-linear-gradient(rgb(182, 231, 90), rgb(16, 226, 16));
+    background: -o-linear-gradient(rgb(182, 231, 90), rgb(16, 226, 16));
+    background: -moz-linear-gradient(rgb(182, 231, 90), rgb(16, 226, 16));
+    width: 400px;
+    height: 50px;
+    padding: 20px 20px 0 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.text {
+    float: left;
+    width: 200px;
+    padding: 5px;
+    font-size: 15px;
+    color: chocolate;
+    margin-right: 20px;
+    border-radius: 4px;
+    border-color: white;
+    background-color: rgb(252, 255, 68);
+    border: 1px solid orange;
+    background: white url(../logos/pic\ 3.png) right center no-repeat;
+}
+
+
+
+.submit{
+    float: right;
+    padding: 7px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    background-color: rgb(219, 79, 219);
+    border-radius: 4px;
+    border-color: rgb(219, 79, 219);
+}
+
+.clear {
+    clear: both;
+}
+#menu {
+    height: 70px;
+    background: linear-gradient(rgb(240, 229, 82),rgb(255, 255, 4));
+    padding: 5px;
+   
+}
+
+ul {
+    list-style: none;
+
+}
+
+#menu ul li {
+    float: left;
+    padding: 0 10px;
+    height: 20px;
+    border-right: 1px solid rgb(24, 24, 241);
+}
+
+#menu ul li:last-child{
+    border-right: none;
+
+}
+
+#menu ul li a{
+    text-decoration: none;
+    font-size: 29px;
+    color: rgb(32, 32, 240);
+    line-height: 30px;
+    padding: 17px;
+    -webkit-transition: font-size 0.5s ease;
+    -moz-transition: font-size 0.5s ease;
+    -o-transition: font-size 0.5s ease;
+    -ms-transition: font-size 0.5s ease;
+    transition: font-size 0.5s ease;
+
+ 
+}
+
+#menu ul li a:hover, #menu ul li a.active{
+    font-size: 28px;
+    font-weight: bold;
+    color: rgb(240, 6, 240);
+}
+
+#introduction {
+    background: linear-gradient(rgb(176, 233, 137),rgb(67, 245, 67));
+    background: -webkit-linear-gradient(rgb(176, 233, 137),rgb(67, 245, 67));
+    background: -o-linear-gradient(rgb(176, 233, 137),rgb(67, 245, 67));
+    background: -moz-linear-gradient(rgb(176, 233, 137),rgb(67, 245, 67));
+    padding: 40px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+#introduction h3{
+    font-size: 50px;
+    color: rgb(3, 92, 3);
+    font-weight: normal;
+}
+
+#introduction p{
+    font-size: 25px;
+    color: rgb(4, 139, 4);
+    text-align: justify;
+}
+
+.sidebar {
+    height: 520px;
+    width: 450px;
+    border: 1px solid purple;
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+
+#leftsidebar {
+    float: left;
+    margin-bottom: 15px;
+}
+
+#rightsidebar {
+    float: right;
+    margin-bottom: 15px;
+}
+
+#leftsidebar h3 {
+    color: rgb(199, 1, 199);
+    font-size: 30px;
+}
+
+#rightsidebar h3 {
+    color: rgb(199, 1, 199);
+    font-size: 30px;
+
+}
+
+#leftsidebar ul{
+    padding-top: 8px;
+}
+
+.sidebar ul{
+    padding-top: 8px;
+    
+}
+
+#leftsidebar ul li{
+    padding-bottom: 6px;
+    padding-left: 10px;
+    list-style-image: url(../logos/pic\ 1.1.png);
+}
+
+#rightsidebar ul li{
+    padding-bottom: 12px;
+    padding-left: 30px;
+    padding-top: 12px;
+    list-style-image: url(../logos/pic\ 2.1.png);
+}
+
+.sidebar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(19, 19, 241);
+    -webkit-transition: font-size 0.5s ease;
+    -moz-transition: font-size 0.5s ease;
+    -o-transition: font-size 0.5s ease;
+    -ms-transition: font-size 0.5s ease;
+    transition: font-size 0.5s ease;
+}
+
+.sidebar ul li a:hover, .sidebar ul li a.acive {
+    text-decoration: none;
+    color: purple;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.footer {
+    height: 60px;
+    background: linear-gradient(rgb(234, 236, 73),yellow);
+    background: -webkit-linear-gradient(rgb(234, 236, 73),yellow);
+    background: -o-linear-gradient(rgb(234, 236, 73),yellow);
+    background: -moz-linear-gradient(rgb(234, 236, 73),yellow);
+    padding: 10px 30px;
+    font-size: 18px;
+}
